@@ -1,0 +1,140 @@
+/******w*************
+    Project 3 Stylesheet
+    Name: Braedon Pellerin
+    Date: April 15, 2022
+    Description: Project 3: Website Development and Deployment
+********************/
+
+html
+{    
+    background-color: black;
+    background-image: url('images/background.jpg');  
+    background-repeat: no-repeat;
+}
+
+body
+{
+    width: 750px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #a1a1a1;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+a
+{
+    text-decoration: none;
+}
+    a:hover
+    {
+        color: green;
+    }
+
+header
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+    header h1
+    {
+        text-align: center;
+        font-size: 50px;
+    }
+    header nav ul
+    {
+        display: flex;
+        list-style: none;
+        height: 40px;
+        width: 725px;
+        padding: 0px;
+        justify-content: space-between;
+    }
+    header nav ul li
+    {
+        border-radius: 5px;
+        border: 1px solid blue;
+        background-color: lightblue;
+        font-size: 25px;
+        padding: 10px;
+    }
+    header nav ul li a
+    {
+        color: black;
+    }
+
+main h2
+{
+    text-align: center;
+}
+
+footer nav ul
+{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+    footer nav ul
+    {
+        display: flex;
+        list-style: none;
+    }
+    footer nav ul li
+    {
+        border-right: 1px solid black;
+        padding: 0px 10px;
+    }
+    footer nav ul li:last-of-type
+    {
+        border: none;
+    }
+
+#logo
+{
+    height: 100px;
+    width: 100px;
+    padding-left: 25px;
+}
+.modules li:first-of-type
+{
+    list-style: none;
+}
+
+
+#eportfolio_items li
+{
+    font-weight: bold;
+}
+    #eportfolio_items li p
+    {
+        font-weight: normal;
+    }
+#eportfolio_items img
+{
+    max-width: 675px;
+}
+#eportfolio_items p
+{
+    padding-right: 20px;
+}
+
+.form_error
+{
+    color: red;
+}
+input, textarea
+{
+    width: 50%;
+}
+#contact_form
+{
+    text-align: center;
+}
+    #contact_form ul
+    {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
